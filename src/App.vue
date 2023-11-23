@@ -1,16 +1,17 @@
 <script setup lang="ts">
-import skin from './components/skin.vue'
+import azerino from "@/assets/img/skins/first.webp";
+import skin from '@/components/skin.vue'
 </script>
 
 <template>
   <header>
     <div class="container header">
-      <img class="logo" src="@/assets/img/ntwn.png" alt="logo" />
+      <img class="logo" width="640" height="360" src="@/assets/img/ntwn.png" alt="logo" />
       <div class="socials">
-        <a class="twitch" href="https://www.twitch.tv/netwhynot"></a>
-        <a class="twitter" href="https://twitter.com/netwhynot"></a>
-        <a class="github" href="https://github.com/netwhynot"></a>
-        <a class="discord" href="https://discord.gg/6VCmgGr74H"></a>
+        <a class="twitch" aria-label="twitch" href="https://www.twitch.tv/netwhynot"></a>
+        <a class="twitter" aria-label="twitter" href="https://twitter.com/netwhynot"></a>
+        <a class="github" aria-label="github" href="https://github.com/netwhynot"></a>
+        <a class="discord" aria-label="discord" href="https://discord.gg/6VCmgGr74H"></a>
       </div>
       <p>If you didn't find skin here, then ask me directly.</p>
       <div class="br"></div>
@@ -22,17 +23,17 @@ import skin from './components/skin.vue'
       <div class="grid">
         <skin
           name="azerino"
-          img="src/assets/img/skins/first.png"
+          :img="azerino"
           link="https://netwhynot.s-ul.eu/a042wV0Q"
         ></skin>
         <skin
           name="azerino"
-          img="src/assets/img/skins/first.png"
+          :img="azerino"
           link="https://netwhynot.s-ul.eu/a042wV0Q"
         ></skin>
         <skin
           name="azerino"
-          img="src/assets/img/skins/first.png"
+          :img="azerino"
           link="https://netwhynot.s-ul.eu/a042wV0Q"
         ></skin>
       </div>
@@ -43,7 +44,7 @@ import skin from './components/skin.vue'
 
 <style lang="scss">
 header {
-  margin-top: 70px;
+  margin-top: 40px;
 }
 
 .header {
@@ -53,7 +54,8 @@ header {
   gap: 25px;
 
   .logo {
-    max-width: 90px;
+    width: 90px;
+    height: auto;
   }
 
   .socials {

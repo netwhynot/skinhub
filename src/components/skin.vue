@@ -19,7 +19,7 @@ const props = defineProps({
   <div class="skin">
     <a class="name" :href="props.link">{{ props.name }}</a>
     <div class="img-wrapper">
-      <img class="img" :src="props.img" :alt="props.name" />
+      <img class="img" width="640" height="360" :src="props.img" :alt="props.name" />
     </div>
   </div>
 </template>
@@ -47,6 +47,7 @@ const props = defineProps({
 
   .img {
     width: 100%;
+    height: auto;
     border: 2px solid #080803;
     border-radius: 8px;
   }
