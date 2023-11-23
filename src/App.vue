@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import skin from './components/skin.vue';
+import skin from './components/skin.vue'
 </script>
 
 <template>
   <header>
     <div class="container header">
-      <img class="logo" src="@/assets/img/ntwn.png" alt="logo">
+      <img class="logo" src="@/assets/img/ntwn.png" alt="logo" />
       <div class="socials">
         <a class="twitch" href="https://www.twitch.tv/netwhynot"></a>
         <a class="twitter" href="https://twitter.com/netwhynot"></a>
@@ -20,9 +20,21 @@ import skin from './components/skin.vue';
     <div class="container main">
       <h2 class="heading">most used</h2>
       <div class="grid">
-        <skin name="azerino" img="src/assets/img/skins/first.png" link="https://netwhynot.s-ul.eu/a042wV0Q"></skin>
-        <skin name="azerino" img="src/assets/img/skins/first.png" link="https://netwhynot.s-ul.eu/a042wV0Q"></skin>
-        <skin name="azerino" img="src/assets/img/skins/first.png" link="https://netwhynot.s-ul.eu/a042wV0Q"></skin>
+        <skin
+          name="azerino"
+          img="src/assets/img/skins/first.png"
+          link="https://netwhynot.s-ul.eu/a042wV0Q"
+        ></skin>
+        <skin
+          name="azerino"
+          img="src/assets/img/skins/first.png"
+          link="https://netwhynot.s-ul.eu/a042wV0Q"
+        ></skin>
+        <skin
+          name="azerino"
+          img="src/assets/img/skins/first.png"
+          link="https://netwhynot.s-ul.eu/a042wV0Q"
+        ></skin>
       </div>
       <h2 class="heading">other skins</h2>
     </div>
@@ -68,37 +80,37 @@ header {
     }
 
     .twitch {
-      background-image: url("@/assets/img/twitch.png");
+      background-image: url('@/assets/img/twitch.png');
 
       &:hover {
-        background-image: url("@/assets/img/twitch-hover.png");
+        background-image: url('@/assets/img/twitch-hover.png');
       }
     }
 
     .twitter {
-      background-image: url("@/assets/img/twitter.png");
+      background-image: url('@/assets/img/twitter.png');
 
       &:hover {
-        background-image: url("@/assets/img/twitter-hover.png");
+        background-image: url('@/assets/img/twitter-hover.png');
       }
     }
 
     .github {
-      background-image: url("@/assets/img/github.png");
+      background-image: url('@/assets/img/github.png');
 
       &:hover {
-        background-image: url("@/assets/img/github-hover.png");
+        background-image: url('@/assets/img/github-hover.png');
       }
     }
 
     .discord {
       width: 23px;
       height: 23px;
-      background-image: url("@/assets/img/discord.png");
+      background-image: url('@/assets/img/discord.png');
       transform: translateY(1px);
 
       &:hover {
-        background-image: url("@/assets/img/discord-hover.png");
+        background-image: url('@/assets/img/discord-hover.png');
       }
     }
   }
@@ -128,12 +140,11 @@ header {
     flex-wrap: wrap;
     gap: 40px 20px;
 
-
     & > div {
       width: 48%;
 
-      @media screen and (max-width: 768px){
-        width: 100%;  
+      @media screen and (max-width: 768px) {
+        width: 100%;
       }
     }
   }
