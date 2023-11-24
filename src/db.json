@@ -1,0 +1,98 @@
+{
+  "pomah": {
+    "main": "#fff458",
+    "secondary": "#131307",
+    "skins": {
+      "mostUsed": {
+        "6752517": {
+          "name": "azerino+vac",
+          "img": "https://netwhynot.s-ul.eu/q4E0N9dP",
+          "link": "https://netwhynot.s-ul.eu/vUYH9Uuk"
+        },
+        "3212248": {
+          "name": "vaxedit",
+          "img": "https://netwhynot.s-ul.eu/joPEzaSj",
+          "link": "https://netwhynot.s-ul.eu/nH6mNKto"
+        },
+        "5589170": {
+          "name": "tekkitorafis",
+          "img": "https://netwhynot.s-ul.eu/8eHLOiFb",
+          "link": "https://netwhynot.s-ul.eu/uybCVkT0"
+        }
+      },
+      "other": {
+        "1336142": {
+          "name": "shige",
+          "img": "https://netwhynot.s-ul.eu/rqSXdVhp",
+          "link": "https://netwhynot.s-ul.eu/bTioNEH7"
+        },
+        "6300110": {
+          "name": "maika v2",
+          "img": "https://netwhynot.s-ul.eu/Ap3ye7Jd",
+          "link": "https://netwhynot.s-ul.eu/D8kUyeAT"
+        },
+        "6378863": {
+          "name": "emilia copy (gameplay only)",
+          "img": "https://netwhynot.s-ul.eu/DCuO2mIE",
+          "link": "https://netwhynot.s-ul.eu/lfrlvw0N"
+        },
+        "1646470": {
+          "name": "rafis elohere",
+          "img": "https://netwhynot.s-ul.eu/NOb96OFZ",
+          "link": "https://netwhynot.s-ul.eu/dno2KLPA"
+        },
+        "7273308": {
+          "name": "elohere x Seouless",
+          "img": "https://netwhynot.s-ul.eu/bxg29qFO",
+          "link": "https://netwhynot.s-ul.eu/rAjtaC8j"
+        },
+        "318108": {
+          "name": "monkodtcroix",
+          "img": "https://netwhynot.s-ul.eu/3uws1nYh",
+          "link": "https://netwhynot.s-ul.eu/hcYsKm7e"
+        },
+        "1806065": {
+          "name": "lugianm",
+          "img": "https://netwhynot.s-ul.eu/wc2pxWeF",
+          "link": "https://netwhynot.s-ul.eu/esGkNrOp"
+        },
+        "8554606": {
+          "name": "monkoedit",
+          "img": "https://netwhynot.s-ul.eu/CX1hxyiW",
+          "link": "https://netwhynot.s-ul.eu/tZRYovW6"
+        }
+      }
+    },
+    "socials": {
+      "twitch": "https://www.twitch.tv/netwhynot",
+      "twitter": "https://twitter.com/netwhynot",
+      "discord": "https://discord.gg/6VCmgGr74H",
+      "github": "https://github.com/netwhynot"
+    }
+  },
+  "magnatagamer123": {
+    "main": "#b74de8",
+    "secondary": "#1c0c24",
+    "skins": {
+      "mostUsed": {
+        "5491801": {
+          "name": "-_YUGEN_-",
+          "img": "https://media.discordapp.net/attachments/1166361260053516428/1177608619215298610/screenshot678.jpg?ex=6573207d&is=6560ab7d&hm=41608cf0a6428f8884ec4433e69264010e5aa90a81b4e4d106f969ffba2866ee&=&format=webp&width=1202&height=676",
+          "link": "https://cdn.discordapp.com/attachments/1166361260053516428/1177608322996764764/-_YUGEN_-.osk?ex=65732037&is=6560ab37&hm=0c8840be4a5db37748d8e9194ee3f20e8002b1d9f3f58ef11e57c5571d4ea54b&"
+        },
+        "5423280": {
+          "name": "AristiaEdittrail",
+          "img": "https://media.discordapp.net/attachments/1166361260053516428/1177608739449213048/screenshot679.jpg?ex=6573209a&is=6560ab9a&hm=8f12a8978cfc8c6417b98abfcc3b873332559b4f2a47dc65f2bc33e80cb6664a&=&format=webp&width=1202&height=676",
+          "link": "https://cdn.discordapp.com/attachments/1166361260053516428/1177608733543649332/AristiaEdittrail.osk?ex=65732098&is=6560ab98&hm=ddb400c4e299398b876181bc294c12d99efd4bf758c25717e5308ae9965d77fe&"
+        }
+      },
+      "other": {}
+    },
+    "socials": {
+      "twitch": "https://www.twitch.tv/magn3ta",
+      "twitter": "https://twitter.com/magn3taosu",
+      "discord": "",
+      "github": ""
+    }
+  }
+}

@@ -11,13 +11,22 @@ const props = defineProps({
   img: {
     type: String,
     required: true
+  },
+  main: {
+    type: String,
+    required: true
+  },
+  secondary: {
+    type: String,
+    required: true
   }
-})
+});
+console.log(props);
 </script>
 
 <template>
   <div class="skin">
-    <a class="name" :href="props.link">{{ props.name }}</a>
+    <a class="name" :to="props.link">{{ props.name }}</a>
     <div class="img-wrapper">
       <img class="img" width="640" height="360" :src="props.img" :alt="props.name" />
     </div>
@@ -38,7 +47,12 @@ const props = defineProps({
   transition: color 0.3s ease-out;
 
   &:hover {
-    color: #fff458;
+    color: v-bind("props.main");
+  }
+
+  &:focus {
+    outline: 2px solid v-bind("props.main");
+    border-radius: 4px;
   }
 }
 
@@ -48,7 +62,7 @@ const props = defineProps({
   .img {
     width: 100%;
     height: auto;
-    border: 2px solid #131307;
+    border: 2px solid v-bind("props.secondary");
     border-radius: 8px;
   }
 }
