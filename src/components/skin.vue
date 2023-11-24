@@ -25,7 +25,7 @@ const props = defineProps({
 
 <template>
   <div class="skin">
-    <a class="name" :to="props.link">{{ props.name }}</a>
+    <a class="name" :href="props.link">{{ props.name }}</a>
     <div class="img-wrapper">
       <img class="img" width="640" height="360" :src="props.img" :alt="props.name" />
     </div>
@@ -42,8 +42,9 @@ const props = defineProps({
 
 .name {
   font-size: 20px;
+  text-decoration: none;
   color: #fff;
-  transition: color 0.3s ease-out;
+  transition: color 0.2s ease-out;
 
   &:hover {
     color: v-bind("props.main");

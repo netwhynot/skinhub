@@ -2,6 +2,9 @@
   "pomah": {
     "main": "#fff458",
     "secondary": "#131307",
+    "filter": "invert(83%) sepia(54%) saturate(488%) hue-rotate(356deg) brightness(107%) contrast(102%)",
+    "sensetive": "POMAH",
+    "avatar": "pomah.png",
     "skins": {
       "mostUsed": {
         "6752517": {
@@ -73,6 +76,9 @@
   "magnatagamer123": {
     "main": "#b74de8",
     "secondary": "#1c0c24",
+    "filter": "invert(70%) sepia(97%) saturate(5789%) hue-rotate(255deg) brightness(93%) contrast(94%)",
+    "sensetive": "magnatagamer123",
+    "avatar": "magnatagamer123.png",
     "skins": {
       "mostUsed": {
         "5491801": {

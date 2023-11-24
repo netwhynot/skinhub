@@ -1,19 +1,25 @@
 <script setup lang="ts">
 import { useRoute } from "vue-router";
-import { ref } from "vue";
-import Skin from "@/components/skin.vue";
+import { ref, watch } from "vue";
 import db from "@/db.json";
 import type { TName } from "@/types/general";
+import Skin from "@/components/skin.vue";
+import Sidebar from "@/components/sidebar.vue";
 
 const route = useRoute();
 const playerInfo = ref(db[route.path.replace("/skinhub/", "") as TName]);
+
+watch(route, () => {
+  playerInfo.value = db[route.path.replace("/skinhub/", "") as TName];
+})
 </script>
 
 <template>
+  <Sidebar :main="playerInfo.main" :secondary="playerInfo.secondary" />
   <div class="apka">
     <header>
       <div class="container header">
-        <img class="logo" width="640" height="360" src="@/assets/img/ntwn.png" alt="logo" />
+        <img class="logo" width="640" height="360" :src="'/skinhub/avatars/' + playerInfo.avatar" alt="logo" />
         <div class="socials">
           <a
             target="_blank"
@@ -42,7 +48,8 @@ const playerInfo = ref(db[route.path.replace("/skinhub/", "") as TName]);
             :href="playerInfo.socials.github"
           ></a>
         </div>
-        <p>If you didn't find skin here, then ask me directly.</p>
+        <h3>{{playerInfo.sensetive + " skins" }}</h3>
+        <p>If you didn't find skin here, then ask in a <a class="link" href="https://discord.gg/UDDNbfHsZX">netwhynot's</a> discord server.</p>
         <div class="br"></div>
       </div>
     </header>
@@ -90,7 +97,8 @@ const playerInfo = ref(db[route.path.replace("/skinhub/", "") as TName]);
 
   .logo {
     width: 90px;
-    height: auto;
+    height: 90px;
+    border-radius: 4px;
   }
 
   .socials {
@@ -108,11 +116,11 @@ const playerInfo = ref(db[route.path.replace("/skinhub/", "") as TName]);
       background-size: contain;
       background-repeat: no-repeat;
       background-position: center;
-      transition: background-image 0.3s ease-out;
+      filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(192deg) brightness(111%) contrast(101%);
 
       &:focus {
-        outline: 2px solid v-bind("playerInfo.main");
-        border-radius: 4px;
+        outline: none;
+        filter: v-bind("playerInfo.filter");
       }
     }
 
@@ -120,7 +128,7 @@ const playerInfo = ref(db[route.path.replace("/skinhub/", "") as TName]);
       background-image: url("@/assets/img/twitch.png");
 
       &:hover {
-        background-image: url("@/assets/img/twitch-hover.png");
+        filter: v-bind("playerInfo.filter");
       }
     }
 
@@ -128,7 +136,7 @@ const playerInfo = ref(db[route.path.replace("/skinhub/", "") as TName]);
       background-image: url("@/assets/img/twitter.png");
 
       &:hover {
-        background-image: url("@/assets/img/twitter-hover.png");
+        filter: v-bind("playerInfo.filter");
       }
     }
 
@@ -136,7 +144,7 @@ const playerInfo = ref(db[route.path.replace("/skinhub/", "") as TName]);
       background-image: url("@/assets/img/github.png");
 
       &:hover {
-        background-image: url("@/assets/img/github-hover.png");
+        filter: v-bind("playerInfo.filter");
       }
     }
 
@@ -147,12 +155,26 @@ const playerInfo = ref(db[route.path.replace("/skinhub/", "") as TName]);
       transform: translateY(1px);
 
       &:hover {
-        background-image: url("@/assets/img/discord-hover.png");
+        filter: v-bind("playerInfo.filter");
       }
     }
   }
 
   & > p {
+    margin: 0;
+    text-align: center;
+
+    .link {
+      color: #fff;
+      transition: color 0.2s ease-out;
+
+      &:hover {
+        color: v-bind("playerInfo.main");
+      }
+    }
+  }
+
+  & > h3 {
     margin: 0;
     text-align: center;
   }
