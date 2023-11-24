@@ -90,9 +90,25 @@
           "name": "AristiaEdittrail",
           "img": "https://media.discordapp.net/attachments/1166361260053516428/1177608739449213048/screenshot679.jpg?ex=6573209a&is=6560ab9a&hm=8f12a8978cfc8c6417b98abfcc3b873332559b4f2a47dc65f2bc33e80cb6664a&=&format=webp&width=1202&height=676",
           "link": "https://cdn.discordapp.com/attachments/1166361260053516428/1177608733543649332/AristiaEdittrail.osk?ex=65732098&is=6560ab98&hm=ddb400c4e299398b876181bc294c12d99efd4bf758c25717e5308ae9965d77fe&"
+        },
+        "7801492": {
+          "name": "PETRO_MOSTAVCHUK_DT",
+          "img": "https://media.discordapp.net/attachments/1166361260053516428/1177714759706083428/screenshot688.jpg?ex=65738357&is=65610e57&hm=2fe7dcabb77deacde177b263e1d0b57545b256102c3e3690e4fba490aed23129&=&format=webp&width=1202&height=676",
+          "link": "https://cdn.discordapp.com/attachments/1166361260053516428/1177714759194390678/PETRO_MOSTAVCHUK_DT.osk?ex=65738357&is=65610e57&hm=0fe3084e08a2d32a2bfe157d7e7634882360eccd9a95eb8ed09f098463847eba&"
         }
       },
-      "other": {}
+      "other": {
+        "3743957": {
+          "name": "ypan",
+          "img": "https://media.discordapp.net/attachments/1166361260053516428/1177715007857889301/screenshot689.jpg?ex=65738392&is=65610e92&hm=7956c0a99a669f8d3dc15d4aee281324358931378afdd71bd83d162680a2e7b9&=&format=webp&width=1202&height=676",
+          "link": "https://cdn.discordapp.com/attachments/1166361260053516428/1177715007333613668/ypan.osk?ex=65738392&is=65610e92&hm=e67bfb9dd8608c5563e3f42ef8e784afad1253302244ac558a54fb9463776aa1&"
+        },
+        "3714381": {
+          "name": "MonkoGlassTest",
+          "img": "https://media.discordapp.net/attachments/1166361260053516428/1177715248178929755/screenshot690.jpg?ex=657383cc&is=65610ecc&hm=a5ce3f002dc87574ec8f5da24f03cf6e139200811bc51edf4cd30d7752f1f6f9&=&format=webp&width=1202&height=676",
+          "link": "https://cdn.discordapp.com/attachments/1166361260053516428/1177715248363483236/MonkoGlassTest.osk?ex=657383cc&is=65610ecc&hm=5b4693032b63765dfb380476fad6c6b7cbd19b762741889304e96390c6f26b60&"
+        }
+      }
     },
     "socials": {
       "twitch": "https://www.twitch.tv/magn3ta",

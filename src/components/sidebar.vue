@@ -30,8 +30,8 @@ const isActive = ref(false);
 <style lang="scss" scoped>
 .icon {
   position: fixed;
-  left: 10px;
-  top: 10px;
+  left: 20px;
+  top: 20px;
   z-index: 10;
   width: 30px;
   height: 30px;
@@ -95,7 +95,7 @@ const isActive = ref(false);
 
 .sidebar-active {
   width: 141px;
-  padding: 80px 50px 50px 50px;
+  padding: 80px 70px 70px 70px;
   
   @media screen and (max-width: 768px) {
     width: 100%;
