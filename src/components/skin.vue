@@ -48,7 +48,7 @@ const props = defineProps({
   .img {
     width: 100%;
     height: auto;
-    border: 2px solid #080803;
+    border: 2px solid #131307;
     border-radius: 8px;
   }
 }
