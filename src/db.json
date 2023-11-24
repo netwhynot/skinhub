@@ -100,5 +100,49 @@
       "discord": "",
       "github": ""
     }
+  },
+  "sharytory": {
+    "main": "#52eeff",
+    "secondary": "#0d2629",
+    "filter": "invert(83%) sepia(16%) saturate(2064%) hue-rotate(153deg) brightness(102%) contrast(104%)",
+    "sensetive": "sharytory",
+    "avatar": "sharytory.png",
+    "skins": {
+      "mostUsed": {
+        "8969816": {
+          "name": "GN",
+          "img": "https://media.discordapp.net/attachments/1005570225493770320/1177701569714720788/screenshot123.png?ex=6573770e&is=6561020e&hm=5d7d1db6ae3b5573fb0181aa769d2731a485c3943aeda609a746760b170c4697&=&format=webp&width=1202&height=676",
+          "link": "https://cdn.discordapp.com/attachments/1005570225493770320/1177701569207218187/GN.osk?ex=6573770e&is=6561020e&hm=ef712098fdab73d1f6c472d6ec7e047927e85510ce405da727b42ab83c4df356&"
+        },
+        "7163909": {
+          "name": "Moyai_Balls",
+          "img": "https://media.discordapp.net/attachments/1005570225493770320/1177701934199746762/screenshot124.png?ex=65737765&is=65610265&hm=e813a26795ac7a7ca1b8ce9013d3a096a95f47b972af2c7b079715b63d6c7252&=&format=webp&width=1202&height=676",
+          "link": "https://cdn.discordapp.com/attachments/1005570225493770320/1177701933734182974/Moyai_Balls.osk?ex=65737765&is=65610265&hm=622fba710f90bb96a742320d6bbe8b3d8272a5d2d347abebe0364e9fdf2c6df3&"
+        },
+        "9392227": {
+          "name": "dddx15dt",
+          "img": "https://media.discordapp.net/attachments/1005570225493770320/1177702172880801832/screenshot125.png?ex=6573779e&is=6561029e&hm=74fdfa386c35c792dbc71a1bf6a82f03e825cd4f0173a0eeacd8b94252d2238e&=&format=webp&width=1202&height=676",
+          "link": "https://cdn.discordapp.com/attachments/1005570225493770320/1177702170087403611/dddx15dt.osk?ex=6573779d&is=6561029d&hm=c4957bde94eaa12d80f3ab95d66973f4569b179816f4a53f08a5fcf72b8b89b1&"
+        }
+      },
+      "other": {
+        "1696657": {
+          "name": "-_zibi_instafade",
+          "img": "https://media.discordapp.net/attachments/1005570225493770320/1177702527542775868/screenshot126.png?ex=657377f3&is=656102f3&hm=ecea4d476e69b382c6c8318ceff14f3889b14bfe670be4cf10f02c92839669e7&=&format=webp&width=1202&height=676",
+          "link": "https://cdn.discordapp.com/attachments/1005570225493770320/1177702527127519402/-_zibi_instafade.osk?ex=657377f3&is=656102f3&hm=c01f4be568ef4717d42fa0cc3a2b792473f7e8271ece15721bbc9a0c94535d2c&"
+        },
+        "4129901": {
+          "name": "10046908v100",
+          "img": "https://media.discordapp.net/attachments/1005570225493770320/1177702958767542372/screenshot127.png?ex=6573785a&is=6561035a&hm=4aac301688fc43878c2248295f3f193881646886fe6017c510639833bcf3090b&=&format=webp&width=1202&height=676",
+          "link": "https://cdn.discordapp.com/attachments/1005570225493770320/1177702958184550501/10046908v100.osk?ex=65737859&is=65610359&hm=05d522b7996ccdd94af1ac7367ff1bc896746590a96d4f61a55ac1e36b3623d4&"
+        }
+      }
+    },
+    "socials": {
+      "twitch": "https://www.twitch.tv/sharytory",
+      "twitter": "https://twitter.com/sharytory",
+      "discord": "",
+      "github": ""
+    }
   }
 }
