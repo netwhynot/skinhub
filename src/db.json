@@ -160,5 +160,38 @@
       "discord": "",
       "github": ""
     }
+  },
+  "epema": {
+    "main": "#dbdbdb",
+    "secondary": "#ababab",
+    "filter": "invert(99%) sepia(2%) saturate(287%) hue-rotate(234deg) brightness(113%) contrast(86%)",
+    "sensetive": "EPEMA",
+    "avatar": "epema.png",
+    "skins": {
+      "mostUsed": {
+        "5491801": {
+          "name": "+tekkito legoshii",
+          "img": "https://media.discordapp.net/attachments/986686989908733982/1206182872604610602/screenshot303.jpg?ex=65db1456&is=65c89f56&hm=33285ab068f93af345f15a07714dcfa419a19627a4651e882a6a4a37f6506f2b&=&format=webp&width=1202&height=676",
+          "link": "https://unavel.s-ul.eu/BDxADZCP"
+        },
+        "5423280": {
+          "name": "#tlqkf",
+          "img": "https://media.discordapp.net/attachments/986686989908733982/1206183502056525864/4f0d2907b798a851fb7f82476272f025.webp?ex=65db14ec&is=65c89fec&hm=db6df8e4457dd5000800b667382e858e22820d1a0409d4b9acfba927b14e7bda&=&format=webp&width=1202&height=676",
+          "link": "https://www.google.com/url?q=https%3A%2F%2Fbit.ly%2F3RZNDUQ&sa=D&sntz=1&usg=AOvVaw1ju2N9k-mMWXQ1mtFPNlDg"
+        },
+        "7801492": {
+          "name": "+tekkito rafis",
+          "img": "https://media.discordapp.net/attachments/986686989908733982/1206182950329131018/screenshot305.jpg?ex=65db1469&is=65c89f69&hm=fee80760a38b213e6258d69a4748408699c574639d343f142c4f8c6e5217988b&=&format=webp&width=1202&height=676",
+          "link": "https://unavel.s-ul.eu/LpDviFb5"
+        }
+      },
+      "other": {}
+    },
+    "socials": {
+      "twitch": "https://www.twitch.tv/uunavel",
+      "twitter": "https://twitter.com/unqvel",
+      "discord": "",
+      "github": ""
+    }
   }
 }
